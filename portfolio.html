@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-white font-sans">
+    <nav
+      class="max-w-7xl mx-auto h-20 flex items-center justify-between px-8 lg:px-16 bg-white sticky top-0"
+    >
+      <h1 class="text-3xl font-bold">
+        Yashh<span class="text-orange-500">ops</span>
+      </h1>
+      <a href="#services" class="text-gray font-medium hover:text-orange-500"
+        >Services
+      </a>
+      <a href="#about" class="text-gray font-medium hover:text-orange-500"
+        >About</a
+      >
+      <a href="#work" class="text-gray font-medium hover:text-orange-500"
+        >Work</a
+      >
+      <a href="#contact" class="text-gray font-medium hover:text-orange-500"
+        >Contact</a
+      >
+      <div class="flex items-center gap-4">
+        <button
+          class="bg-orange-500 text-white px-6 py-3 rounded-full hover:bg-orange-600 transition"
+        >
+          Hire Me →
+        </button>
+      </div>
+    </nav>
+    <!--Left Side Content-->
+    <div
+      class="max-w-7xl mx-auto flex items-center justify-between gap-20 px-8 lg:px-16 py-20"
+    >
+      <div class="w-1/2 max-w-xl">
+        <p class="text-orange-600 uppercase">Available for work</p>
+        <h1 class="text-6xl font-bold mt-4">
+          Hi, I'm <span class="text-orange-600">Yashh</span>
+        </h1>
+        <p class="text-gray-700 mt-6 leading-8 text-xl max-w-lg">
+          <span class="font-semibold text-black"
+            >Frontend Developer & UI/UX Designer.</span
+          >
+          I design and build responsive websites and user interfaces that look
+          stunning and function flawlessly — interactive, modern, and clean.
+        </p>
+        <!-- Adding buttons-->
+        <div class="flex gap-5 mt-10">
+          <button
+            class="bg-black text-white px-8 py-4 rounded-full hover:bg-gray-800 shadow-xl/30 transition"
+          >
+            View My Work
+          </button>
+
+          <button
+            class="border border-gray-300 px-8 py-4 rounded-full hover:bg-gray-100 shadow-xl/30 transition"
+          >
+            Get In Touch
+          </button>
+        </div>
+      </div>
+      <!--Right Side Img Content-->
+      <div class="w-1/2 flex justify-end">
+        <img
+          src="./assets/profile.PNG"
+          class="w-[380px] h-[500px] object-cover rounded-3xl"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- <div class="h-[650px] bg-olive-100 flex flex-row justify-around">
+      <div class="w-[350px] h-[300px] border rounded-3xl mt-50 bg-white">
+        <h2>UI Designer</h2>
+        <p class="text-gray-700 text-justify p-8">
+          From wireframes to polished Figma prototypes. Intuitive, visually
+          compelling interfaces that convert visitors into users and put
+          usability first
+        </p>
+      </div>
+      <div class="w-[350px] h-[300px] border rounded-3xl mt-50"></div>
+      <div class="w-[350px] h-[300px] border rounded-3xl mt-50"></div>
+    </div>-->
+
+    <!--Skills Section with containers-->
+    <div id="services" class="max-w-7xl mx-auto py-24 px-8">
+      <p class="uppercase text-orange-500 tracking-widest font-medium">
+        What I do
+      </p>
+      <h2 class="text-6xl font-bold mt-2">Skills</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+        <div
+          class="bg-white rounded-3xl p-10 border border-gray-100 shadow-lg hover:bg-black hover:text-white hover:-translate-y-3 hover:shadow-3xl transition-all duration-500 group cursor-pointer"
+        >
+          <h2 class="text-3xl font-bold mt-6">UI Design</h2>
+          <p class="mt-5 text-gray-500 leading-8 group-hover:text-gray-300">
+            Turning ideas into intuitive, high-fidelity interfaces. Focus on
+            clean layouts, user-centered design, and high-impact visual
+            hierarchies that bridge the gap between concept and code.
+          </p>
+        </div>
+        <div
+          class="bg-white rounded-3xl p-10 border border-gray-100 shadow-lg hover:bg-black hover:text-white hover:-translate-y-3 hover:shadow-3xl transition-all duration-500 group cursor-pointer"
+        >
+          <h2 class="text-3xl font-bold mt-6">HTML & CSS</h2>
+          <p class="mt-5 text-gray-500 leading-8 group-hover:text-gray-300">
+            Building the solid foundation of the web. Writing clean, semantic
+            HTML and structured, maintainable CSS to ensure robust performance,
+            accessibility, and pixel-perfect rendering across all devices.
+          </p>
+        </div>
+        <div
+          class="bg-white rounded-3xl p-10 border border-gray-100 shadow-lg hover:bg-black hover:text-white hover:-translate-y-3 hover:shadow-3xl transition-all duration-500 group cursor-pointer"
+        >
+          <h2 class="text-3xl font-bold mt-6">Tailwind CSS</h2>
+          <p class="mt-5 text-gray-500 leading-8 group-hover:text-gray-300">
+            Crafting rapid, utility-first interfaces. Leveraging Tailwind's
+            ecosystem to build highly customized, responsive layouts with
+            lightning-fast load times and zero unnecessary CSS bloat.
+          </p>
+        </div>
+      </div>
+      <!-- About part -->
+      <div id="about" class="max-w-7xl mx-auto px-8 lg:px-16 py-28">
+        <div class="grid lg:grid-cols-2 gap-20 items-center">
+          <!-- Left Image -->
+          <div class="flex justify-center">
+            <img
+              src="./assets/profile.PNG"
+              alt="Yash"
+              class="w-[420px] h-[500px] object-cover rounded-[35px] shadow-xl"
+            />
+          </div>
+
+          <!-- Right Side Content -->
+          <div>
+            <p
+              class="uppercase tracking-[4px] text-orange-500 font-semibold text-sm"
+            >
+              About Me
+            </p>
+
+            <h2 class="text-6xl font-bold leading-tight mt-3">
+              A bit about <br />
+              who I am
+            </h2>
+
+            <p class="mt-8 text-gray-600 leading-8 text-lg">
+              I'm <span class="font-semibold text-black">Yashh</span>, a
+              Frontend Developer and UI/UX Designer passionate about building
+              modern, responsive, and user-friendly websites. I enjoy
+              transforming ideas into beautiful digital experiences using HTML,
+              CSS and Tailwind CSS.
+            </p>
+
+            <p class="mt-6 text-gray-600 leading-8 text-lg">
+              I believe great design should be clean, intuitive, and accessible.
+              My goal is to create websites that are visually appealing, fast,
+              and easy to use while continuously learning new technologies and
+              improving my development skills.
+            </p>
+
+            <!-- Skills -->
+            <div class="mt-10">
+              <p
+                class="uppercase text-gray-400 tracking-widest text-sm font-semibold mb-5"
+              >
+                Stack & Tools
+              </p>
+
+              <div class="flex flex-wrap gap-4">
+                <span
+                  class="px-5 py-2 rounded-full border border-gray-200 hover:bg-orange-500 hover:text-white transition"
+                >
+                  HTML</span
+                >
+
+                <span
+                  class="px-5 py-2 rounded-full border border-gray-200 hover:bg-orange-500 hover:text-white transition"
+                >
+                  CSS</span
+                >
+
+                <span
+                  class="px-5 py-2 rounded-full border border-gray-200 hover:bg-orange-500 hover:text-white transition"
+                >
+                  Tailwind CSS</span
+                >
+
+                <span
+                  class="px-5 py-2 rounded-full border border-gray-200 hover:bg-orange-500 hover:text-white transition"
+                >
+                  Git</span
+                >
+
+                <span
+                  class="px-5 py-2 rounded-full border border-gray-200 hover:bg-orange-500 hover:text-white transition"
+                >
+                  GitHub</span
+                >
+
+                <span
+                  class="px-5 py-2 rounded-full border border-gray-200 hover:bg-orange-500 hover:text-white transition"
+                >
+                  VS Code</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Project section -->
+      <section id="work" class="max-w-7xl mx-auto px-8 lg:px-16 py-28">
+        <div class="flex justify-between items-center mb-16">
+          <div>
+            <p class="uppercase tracking-[4px] text-orange-500 font-semibold">
+              Portfolio
+            </p>
+
+            <h2 class="text-6xl font-bold mt-2">Project</h2>
+          </div>
+
+          <a href="#" class="font-semibold hover:text-orange-500 transition">
+            All Projects →
+          </a>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-10">
+          <!-- Project 1 -->
+          <div
+            class="rounded-3xl overflow-hidden border border-gray-200 bg-white shadow-lg hover:-translate-y-3 hover:shadow-2xl transition duration-500"
+          >
+            <img src="./assets/pf1.PNG" class="w-full h-80 object-cover" />
+
+            <div class="p-8">
+              <div class="flex flex-wrap gap-3">
+                <span
+                  class="bg-orange-100 text-orange-600 px-4 py-1 rounded-full text-sm"
+                >
+                  HTML
+                </span>
+
+                <span class="bg-sky-400 px-4 py-1 rounded-full text-sm">
+                  CSS
+                </span>
+              </div>
+
+              <h3 class="text-3xl font-bold mt-6">FitFusion</h3>
+
+              <p class="text-gray-600 mt-4 leading-7">
+                A complete Fitness & Nutrition platform featuring workout
+                generation, diet planner, calorie calculator, progress tracking,
+                badges, admin dashboard and responsive UI.
+              </p>
+
+              <button
+                class="mt-8 font-semibold hover:text-orange-500 transition"
+              >
+                <a href="pf1.html" target="_blank">View Project → </a>
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div
+            class="rounded-3xl overflow-hidden border border-gray-200 bg-white shadow-lg hover:-translate-y-3 hover:shadow-2xl transition duration-500"
+          >
+            <img src="./assets/pf2.PNG" class="w-full h-80 object-cover" />
+
+            <div class="p-8">
+              <div class="flex flex-wrap gap-3">
+                <span
+                  class="bg-orange-100 text-orange-600 px-4 py-1 rounded-full text-sm"
+                >
+                  HTML
+                </span>
+
+                <span class="bg-sky-400 px-4 py-1 rounded-full text-sm">
+                  Tailwind CSS
+                </span>
+
+                <span class="bg-violet-200 px-4 py-1 rounded-full text-sm">
+                  Responsive
+                </span>
+              </div>
+
+              <h3 class="text-3xl font-bold mt-6">Personal Portfolio</h3>
+
+              <p class="text-gray-600 mt-4 leading-7">
+                A modern developer portfolio showcasing my skills, projects,
+                services, and contact information with elegant animations and
+                responsive design.
+              </p>
+
+              <button
+                class="mt-8 font-semibold hover:text-orange-500 transition"
+              >
+                <a href="portfolio.html" target="_blank"> View Project →</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Contact Section -->
+    <section class="max-w-7xl mx-auto px-8 lg:px-16 py-28">
+      <div
+        id="contact"
+        class="relative overflow-hidden bg-white border border-gray-200 rounded-[35px] shadow-2xl p-10 lg:p-16 grid lg:grid-cols-2 gap-16"
+      >
+        <!-- Orange Glow -->
+        <div
+          class="absolute -bottom-32 -left-32 w-80 h-80 bg-orange-300/30 blur-[120px] rounded-full"
+        ></div>
+
+        <div
+          class="absolute -top-20 -right-20 w-80 h-80 bg-orange-200/30 blur-[120px] rounded-full"
+        ></div>
+
+        <!-- Left Side -->
+        <div class="relative z-10">
+          <p
+            class="uppercase tracking-[4px] text-orange-500 font-semibold text-sm"
+          >
+            Get In Touch
+          </p>
+
+          <h2 class="text-6xl font-bold text-gray-900 leading-tight mt-4">
+            Let's work <br />
+            together
+          </h2>
+
+          <p class="text-gray-600 text-lg leading-8 mt-8 max-w-md">
+            I'm open to frontend development, UI/UX design, freelance work,
+            internships, and exciting collaborations. Feel free to reach out—I'd
+            love to hear about your project.
+          </p>
+
+          <!-- Contact Info -->
+          <div class="mt-12 space-y-6">
+            <!-- Email -->
+            <div class="flex items-center gap-4">
+              <div
+                class="w-14 h-14 rounded-2xl bg-orange-100 text-orange-600 flex items-center justify-center text-2xl"
+              >
+                📧
+              </div>
+
+              <div>
+                <p class="text-sm text-gray-500">Email</p>
+                <p class="text-gray-800 font-medium">
+                  yashhshelar.03@gmail.com
+                </p>
+              </div>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="flex items-center gap-4">
+              <div
+                class="w-14 h-14 rounded-2xl bg-orange-100 text-orange-600 flex items-center justify-center text-2xl"
+              >
+                💼
+              </div>
+
+              <div>
+                <p class="text-sm text-gray-500">LinkedIn</p>
+                <p class="text-gray-800 font-medium">linkedin.com/in/yashh</p>
+              </div>
+            </div>
+
+            <!-- GitHub -->
+            <div class="flex items-center gap-4">
+              <div
+                class="w-14 h-14 rounded-2xl bg-orange-100 text-orange-600 flex items-center justify-center text-2xl"
+              >
+                💻
+              </div>
+
+              <div>
+                <p class="text-sm text-gray-500">GitHub</p>
+                <p class="text-gray-800 font-medium">github.com/yashh-ops</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="relative z-10">
+          <form class="space-y-6">
+            <div class="grid md:grid-cols-2 gap-5">
+              <div>
+                <label class="text-gray-700 font-medium">Name *</label>
+
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  class="w-full mt-2 bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 text-gray-800 outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition"
+                />
+              </div>
+
+              <div>
+                <label class="text-gray-700 font-medium">Email *</label>
+
+                <input
+                  type="email"
+                  placeholder="you@example.com"
+                  class="w-full mt-2 bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 text-gray-800 outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label class="text-gray-700 font-medium">Subject</label>
+
+              <input
+                type="text"
+                placeholder="Project Inquiry"
+                class="w-full mt-2 bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 text-gray-800 outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition"
+              />
+            </div>
+
+            <div>
+              <label class="text-gray-700 font-medium">Message *</label>
+
+              <textarea
+                rows="6"
+                placeholder="Tell me about your project..."
+                class="w-full mt-2 bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 text-gray-800 outline-none resize-none focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition"
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="w-full bg-orange-500 hover:bg-orange-600 text-white py-5 rounded-xl text-lg font-semibold shadow-lg hover:shadow-orange-300 transition duration-300"
+            >
+              Send Message →
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
